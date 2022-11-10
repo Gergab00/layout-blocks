@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "rpmdelivery/blog-block",
+	"version": "0.1.0",
+	"title": "Blog Block",
+	"category": "theme",
+	"icon": "smiley",
+	"description": "Block with a title with options to select blog categories and have them appear in a grid.",
+	"attributes": {
+		"pages": {
+			"type": "array",
+			"default": []
+		},
+		"id": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "blog-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

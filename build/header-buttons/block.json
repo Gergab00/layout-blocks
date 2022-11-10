@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rpmdelivery/header-buttons",
+  "version": "0.1.0",
+  "title": "Header Buttons",
+  "category": "theme",
+  "icon": "smiley",
+  "description": "Block with an image that covers the full width and with three buttons at the bottom.",
+  "attributes": {
+    "media": {
+      "type": "object",
+      "default": {
+        "url": "",
+        "id": 0
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "text_btn": {
+      "type": "string"
+    },
+    "post": {
+      "type": "object"
+    },
+    "text_btn_2": {
+      "type": "string"
+    },
+    "post_2": {
+      "type": "object"
+    },
+    "text_btn_3": {
+      "type": "string"
+    },
+    "post_3": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "header-buttons",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

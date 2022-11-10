@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rpmdelivery/double-image-paragraph",
+  "version": "0.1.0",
+  "title": "Double Image Paragraph",
+  "category": "theme",
+  "icon": "smiley",
+  "description": "Block with two images and a text paragraph.",
+  "attributes": {
+    "img_title": {
+      "type": "string"
+    },
+    "media": {
+      "type": "object",
+      "default": {
+        "url": "",
+        "id": 0
+      }
+    },
+    "media_title": {
+      "type": "object",
+      "default": {
+        "url": "",
+        "id": 0
+      }
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "doble-image-paragraph",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rpmdelivery/industries-served",
+  "version": "0.1.0",
+  "title": "Industries Served",
+  "category": "theme",
+  "icon": "smiley",
+  "description": "Block to create cards with image, title and text.",
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "industries-served",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "rpmdelivery/services",
+	"version": "0.1.0",
+	"title": "Services",
+	"category": "theme",
+	"icon": "superhero",
+	"description": "Block that shows the services added in the section with the same name.",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"pages": {
+			"type": "array",
+			"default": []
+		},
+		"id": {
+			"type": "array",
+			"default": []
+		},
+		"text_btn": {
+			"type": "string"
+		},
+		"post": {
+			"type": "object"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "services",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

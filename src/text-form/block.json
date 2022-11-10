@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "rpmdelivery/text-form",
+	"version": "0.1.0",
+	"title": "Text Form",
+	"category": "theme",
+	"icon": "smiley",
+	"description": "Block with text paragraph and a form for sending.",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"form_title": {
+			"type": "string"
+		},
+		"text_btn": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "text-form",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

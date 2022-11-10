@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "rpmdelivery/form-image",
+	"version": "0.1.0",
+	"title": "Form Image",
+	"category": "theme",
+	"icon": "smiley",
+	"description": "Block with a title, a form on the right side and an image on the left side.",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"media": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"id": 0
+			}
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "form-image",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

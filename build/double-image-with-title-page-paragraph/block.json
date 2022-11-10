@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rpmdelivery/double-image-with-title-page-paragraph",
+  "version": "0.1.0",
+  "title": "Page Title",
+  "category": "theme",
+  "icon": "smiley",
+  "description": "Block with the title of the page, contains a double image on the right side with a title and a paragraph on the left side.",
+  "attributes": {
+    "img_title": {
+      "type": "string"
+    },
+    "media": {
+      "type": "object",
+      "default": {
+        "url": "",
+        "id": 0
+      }
+    },
+    "media_title": {
+      "type": "object",
+      "default": {
+        "url": "",
+        "id": 0
+      }
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "double-image-with-title-page-paragraph",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

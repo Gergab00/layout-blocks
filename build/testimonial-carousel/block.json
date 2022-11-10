@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rpmdelivery/testimonial-carousel",
+  "version": "0.1.0",
+  "title": "Testimonial Carousel",
+  "category": "theme",
+  "icon": "slides",
+  "description": "Block with shows a carousel with the testimonials added in the corresponding section.",
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "testimonial-carousel",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

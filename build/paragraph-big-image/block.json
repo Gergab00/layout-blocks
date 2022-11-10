@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rpmdelivery/paragraph-big-image",
+  "version": "0.1.0",
+  "title": "Paragraph with Big Image",
+  "category": "theme",
+  "icon": "smiley",
+  "description": "Block with a paragraph and a large image.",
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text_btn": {
+      "type": "string"
+    },
+    "post": {
+      "type": "object"
+    },
+    "media": {
+      "type": "object",
+      "default": {
+        "url": "",
+        "id": 0
+      }
+    },
+    "media_mobile": {
+      "type": "object",
+      "default": {
+        "url": "",
+        "id": 0
+      }
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "paragraph-big-image",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
