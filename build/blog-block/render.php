@@ -5,7 +5,7 @@
  * @author Gerardo Gonzalez
  * @version 2022.10.19
  * @since 2022.10.19
- * @package rpmdelivery
+ * @package layout-blocks
  * 
  */
 // Exit if accessed directly.

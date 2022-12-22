@@ -32,3 +32,6 @@ require __DIR__.'/build/card/card.php';
 require __DIR__.'/build/carousel-cell/carousel-cell.php';
 require __DIR__.'/build/contact-form/contact-form.php';
 require __DIR__.'/build/double-image-paragraph/double-image-paragraph.php';
+require __DIR__.'/build/double-image-paragraph-right/double-image-paragraph-right.php';
+require __DIR__.'/build/double-image-with-title-page-paragraph/double-image-with-title-page-paragraph.php';
+require __DIR__.'/build/form-image/form-image.php';

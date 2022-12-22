@@ -46,7 +46,7 @@ export default function Edit({attributes, setAttributes}) {
 			<Panel header="Newsletter">
 				<PanelBody title={ bodyTitle } initialOpen={ opened }>
 					<PanelRow>
-						{ __( 'Newsletter – you can check the suscriptors in the admin panel', 'dude-test' ) }
+						{ __( 'Newsletter – you can check the suscriptors in the admin panel', 'layout-blocks' ) }
 					</PanelRow>
 				</PanelBody>
 				<PanelBody title={ 'Title & Text' } initialOpen={ opened }>

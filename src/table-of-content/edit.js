@@ -41,7 +41,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					<PanelRow>
 						{ __(
 							'Table of Content, in this part show the table that create automatically, with the H tags!',
-							'portafolio-theme'
+							'layout-blocks'
 						) }
 					</PanelRow>
 				</PanelBody>

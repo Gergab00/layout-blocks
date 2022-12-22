@@ -14,8 +14,8 @@ import { __ } from '@wordpress/i18n';
 import { useBlockProps, RichText, InnerBlocks } from '@wordpress/block-editor';
 import { Panel, PanelBody } from '@wordpress/components';
 
-const ALLOWED_BLOCKS = [ 'rpmdelivery/card' ];
-const TEMPLATE = [ [ 'rpmdelivery/card', {} ] ];
+const ALLOWED_BLOCKS = [ 'layout-blocks/card' ];
+const TEMPLATE = [ [ 'layout-blocks/card', {} ] ];
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.

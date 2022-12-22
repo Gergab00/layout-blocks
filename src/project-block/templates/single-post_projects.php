@@ -5,7 +5,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  * 
- * @package portafolio-theme
+ * @package layout-blocks
  * 
  * @version 0.9.0
  * @since 0.9.0

@@ -46,7 +46,7 @@ export default function Edit({attributes, setAttributes}) {
 			<Panel header="Contact Form">
 				<PanelBody title={ bodyTitle } initialOpen={ opened }>
 					<PanelRow>
-						{ __( 'Contact-form – Got to the admin panel to configure.', 'dude-test' ) }
+						{ __( 'Contact-form – Got to the admin panel to configure.', 'layout-blocks' ) }
 					</PanelRow>
 				</PanelBody>
 				<PanelBody title={ 'Title and text' } initialOpen={ opened }>

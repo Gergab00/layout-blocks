@@ -4,7 +4,7 @@
  * @author Gerardo Gonzalez
  * @version 0.9.0
  * @since 0.9.0
- * @package portafolio-theme
+ * @package layout-blocks
  * 
  */
 /**
