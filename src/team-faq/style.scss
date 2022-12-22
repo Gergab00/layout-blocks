@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-understrap-framework-theme-team-faq {
+  /* Make magic... */
+}
+
+[data-block="team-faq"] {
+  /* Make magic... */
+  .carousel-cell {
+    max-width: 1140px;
+  }
+}

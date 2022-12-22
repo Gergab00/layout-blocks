@@ -22,7 +22,13 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function layout_blocks_layout_blocks_block_init() {
-	register_block_type( __DIR__ . '/build' );
-}
-add_action( 'init', 'layout_blocks_layout_blocks_block_init' );
+
+define( 'BLOCKS_PATH', plugin_dir_path( __FILE__ ) );
+define( 'BLOCKS_URL', plugin_dir_url( __FILE__ ));
+
+require __DIR__.'/build/about-block/about-block.php';
+require __DIR__.'/build/blog-block/blog-block.php';
+require __DIR__.'/build/card/card.php';
+require __DIR__.'/build/carousel-cell/carousel-cell.php';
+require __DIR__.'/build/contact-form/contact-form.php';
+require __DIR__.'/build/double-image-paragraph/double-image-paragraph.php';

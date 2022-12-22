@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "understrap-framework-theme/team-faq",
+	"category": "widgets",
+	"version": "1.1.0",
+	"title": "Team and FAQ",
+	"icon": "block-default",
+	"description": "Understrap child theme, modified to create a framework and develop child themes based on Understrap, with tools that help better ordering.",
+	"attributes": {},
+	"supports": {},
+	"textdomain": "understrap-framework-theme",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dude-test/hero-image",
+	"category": "widgets",
+	"version": "1.1.0",
+	"title": "Hero Image Block",
+	"icon": "block-default",
+	"description": "Block with a full image Title and paragraph.",
+	"attributes": {
+		"media": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"id": 0
+			}
+		},
+		"text_btn": {
+			"type": "string"
+		},
+		"post": {
+			"type": "object",
+			"default": {
+				"id":0
+			}
+		}
+	},
+	"supports": {},
+	"textdomain": "dude-test",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

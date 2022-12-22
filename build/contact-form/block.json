@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "dude-test/contact-form",
+  "category": "widgets",
+  "version": "0.9.0",
+  "title": "Contact Form",
+  "icon": "block-default",
+  "description": "Block to put a contact form, you have a field to configure the email to which the message will be sent. And an area to add the title and text. We recommend the WP Mail SMTP to configure the mail server.",
+  "attributes": {},
+  "supports": {},
+  "textdomain": "dude-test",
+  "script": "file:./js/script.js",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

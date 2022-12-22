@@ -1,0 +1,85 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dude-test/icons-text",
+	"category": "widgets",
+	"version": "0.9.0",
+	"title": "Icons With Text",
+	"icon": "block-default",
+	"description": "Block with an image on the left side, with 4 cards with icons, text and a button at the bottom.",
+	"attributes": {
+		"media": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"id": 0
+			}
+		},
+		"title": {
+			"type": "string"
+		},
+		"text": {
+			"type": "string"
+		},
+		"icon": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"id": 0
+			}
+		},
+		"title_2": {
+			"type": "string"
+		},
+		"text_2": {
+			"type": "string"
+		},
+		"icon_2": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"id": 0
+			}
+		},
+		"title_3": {
+			"type": "string"
+		},
+		"text_3": {
+			"type": "string"
+		},
+		"icon_3": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"id": 0
+			}
+		},
+		"title_4": {
+			"type": "string"
+		},
+		"text_4": {
+			"type": "string"
+		},
+		"icon_4": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"id": 0
+			}
+		},
+		"text_btn": {
+			"type": "string"
+		},
+		"post": {
+			"type": "object",
+			"default": {
+				"id":0
+			}
+		}
+	},
+	"supports": {},
+	"textdomain": "dude-test",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

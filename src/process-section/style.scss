@@ -1,0 +1,20 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+[data-block="process-section"] {
+  .start-33 {
+    left: 33% !important;
+  }
+
+  .start-66 {
+    left: 66% !important;
+  }
+
+  .w-85 {
+    width: 85%;
+  }
+}

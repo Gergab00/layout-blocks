@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dude-test/letter-cards",
+	"category": "widgets",
+	"version": "1.1.0",
+	"title": "Letters Cards",
+	"icon": "block-default",
+	"description": "Block with cards with a text letter, title and description.",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"text": {
+			"type": "string"
+		},
+		"title_2": {
+			"type": "string"
+		},
+		"text_2": {
+			"type": "string"
+		},
+		"title_3": {
+			"type": "string"
+		},
+		"text_3": {
+			"type": "string"
+		}
+	},
+	"supports": {},
+	"textdomain": "dude-test",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

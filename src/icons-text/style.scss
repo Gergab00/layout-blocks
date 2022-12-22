@@ -1,0 +1,28 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+[data-block="icons-text"] {
+  .left-img {
+    max-width: 444px;
+    max-height: 677px;
+  }
+
+  .icon {
+    max-width: 77px;
+    max-height: 77px;
+  }
+
+  .btn.btn-outline-secondary {
+    max-width: 187px;
+  }
+
+  @media (max-width: 991.98px) { 
+    .btn.btn-outline-secondary {
+      max-width: initial;
+    }
+   }
+}

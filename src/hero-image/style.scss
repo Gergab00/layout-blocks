@@ -1,0 +1,16 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+[data-block="hero-image"] {
+  .card-text {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .card-title {
+    font-size: 54px;
+    font-weight: bold;
+  }
+}

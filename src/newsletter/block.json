@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "dude-test/newsletter",
+	"category": "widgets",
+	"version": "0.9.0",
+	"title": "Newsletter",
+	"icon": "block-default",
+	"description": "Block to put a field to subscribe to the Newsletter with a custom post type where the records are saved.",
+	"attributes": {},
+	"supports": {},
+	"textdomain": "dude-test",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
