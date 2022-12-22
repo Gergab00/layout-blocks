@@ -15,7 +15,8 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-class IconsWithText {
+class IconsWithText 
+{
 
     /**
 	 * Constructor

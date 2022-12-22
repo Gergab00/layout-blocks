@@ -1,8 +1,19 @@
 <?php
-// Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+/**
+ *
+ *
+ * @author Gerardo Gonzalez
+ * @version 1.0.0
+ * @since 1.0.0
+ * @package layout-blocks
+ *
+ */
 
-class HomeHeader {
+ // Exit if accessed directly.
+defined('ABSPATH') || exit;
+
+class IndustriesServed
+{
 
     /**
 	 * Constructor
@@ -25,15 +36,16 @@ class HomeHeader {
                  *
                  * @return string The rendered output.
                  */
-                'render_callback' => function ($attributes, $content, $block) {
-                    ob_start();
-                    require __DIR__ . '/render.php';
-                    return ob_get_clean();
-                },
+                'render_callback' => array(get_called_class(), 'renderBlock'),
             ));
     }
 
+    public static function renderBlock($attributes, $content, $block)
+    {
+        ob_start();
+        require __DIR__ . '/render.php';
+        return ob_get_clean();
+    }
 }
 
-$HomeHeader = new HomeHeader;
-$HomeHeader::init();
+IndustriesServed::init();

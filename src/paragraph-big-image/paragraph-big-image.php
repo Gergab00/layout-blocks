@@ -1,29 +1,26 @@
 <?php
 /**
- * 
- * 
- * @author the Understrap Contributors
- * @version 1.1.0
- * @since 1.1.0
- * @package understrap-framework-theme
- * 
+ *
+ *
+ * @author Gerardo Gonzalez
+ * @version 1.0.0
+ * @since 1.0.0
+ * @package layout-blocks
+ *
  */
 
- /**
-  * copy this line into block.php -> require __DIR__.'/build/icons-text/icons-text.php';
-  */
-// Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+ // Exit if accessed directly.
+defined('ABSPATH') || exit;
 
-class IconsWithText 
+class ParagraphBigImage
 {
-
     /**
-	 * Constructor
-	 */
-	public static function init() {
-		add_action( 'init', array( get_called_class(), 'registrer' ) );
-	}
+     * Constructor
+     */
+    public static function init()
+    {
+        add_action('init', array(get_called_class(), 'registrer'));
+    }
 
     public static function registrer()
     {
@@ -49,7 +46,6 @@ class IconsWithText
         require __DIR__ . '/render.php';
         return ob_get_clean();
     }
-
 }
 
-IconsWithText::init();
+ParagraphBigImage::init();

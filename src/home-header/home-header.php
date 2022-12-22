@@ -14,7 +14,7 @@ class HomeHeader {
     public static function registrer()
     {
         register_block_type(
-            get_theme_file_path('blocks/build/home-header'),
+            __DIR__,
             array(
                 /**
                  * Render callback function.
@@ -27,7 +27,7 @@ class HomeHeader {
                  */
                 'render_callback' => function ($attributes, $content, $block) {
                     ob_start();
-                    require_once get_theme_file_path('blocks/build/home-header/render.php');
+                    require __DIR__ . '/render.php';
                     return ob_get_clean();
                 },
             ));
