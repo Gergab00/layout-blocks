@@ -39,7 +39,7 @@ require __DIR__.'/build/header-buttons/header-buttons.php';
 require __DIR__.'/build/hero-image/hero-image.php';
 require __DIR__.'/build/home-header/home-header.php';
 require __DIR__.'/build/icons-text/icons-text.php';
-require __DIR__.'/build/industires-served/industires-served.php';
+require __DIR__.'/build/industries-served/industries-served.php';
 require __DIR__.'/build/letter-cards/letter-cards.php';
 require __DIR__.'/build/newsletter/newsletter.php';
 require __DIR__.'/build/paragraph-big-image/paragraph-big-image.php';
