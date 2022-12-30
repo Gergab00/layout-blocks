@@ -23,7 +23,7 @@
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 
-define( 'BLOCKS_PATH', plugin_dir_path( __FILE__ ) );
+define( 'PLUGINBLOCKS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'BLOCKS_URL', plugin_dir_url( __FILE__ ));
 
 require __DIR__.'/build/about-block/about-block.php';
