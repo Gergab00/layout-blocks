@@ -2,20 +2,23 @@
 
 class TestCard extends WP_UnitTestCase 
 {
-    function test_render() 
+    public function testGetBlockWrapperAttributes()
     {
-        $inner_blocks = array(
-            array(
-                'blockName' => 'core/paragraph',
-                'attributes' => array(
-                    'content' => 'Lorem ipsum dolor sit amet. Consectetur adipiscing elit'
-                )
-            )
-        );
+        $attributes = [
+            'media' => ['id' => 1],
+            'title' => 'Título de prueba',
+            'content' => 'Contenido de prueba',
+        ];
+        $expectedWrapperAttributes = 'class="card rounded border-radius-20 w-100"';
+        $expectedImageTag = '<img class="card-img-top img-fluid rounded-top border-radius-20" src="imagen.jpg" alt="">';
+        $expectedTitle = 'Título de prueba';
+        $expectedContent = 'Contenido de prueba';
 
-        $output = render_block('layout-blocks/card', array(), $inner_blocks);
+        extract($attributes);
+        $imageTag = wp_get_attachment_image($media['id'], 'img-278-168', false, ['class'=>'card-img-top img-fluid rounded-top border-radius-20']);
 
-        $this->assertContains('<div class="inner-content"><p>Lorem ipsum dolor sit amet. Consectetur adipiscing elit</p></div>', $output);
-
+        $this->assertEquals($expectedImageTag, $imageTag);
+        $this->assertEquals($expectedTitle, $title);
+        $this->assertEquals($expectedContent, $content);
     }
 }

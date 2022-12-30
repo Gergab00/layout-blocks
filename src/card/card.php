@@ -50,3 +50,5 @@ class Card {
       return ob_get_clean();
   }
 }
+
+Card::init();
